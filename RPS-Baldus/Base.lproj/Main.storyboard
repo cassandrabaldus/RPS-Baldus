@@ -99,11 +99,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-Ky-Sj8">
+                                <rect key="frame" x="141" y="395" width="92" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.68513889123680094" blue="0.42614740323332057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="PfY-ns-Ir3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Results" image="vs" selectedImage="vs" id="AoP-IO-ISO"/>
+                    <connections>
+                        <outlet property="resetBTN" destination="pJI-Ky-Sj8" id="fVk-4s-yR2"/>
+                        <outlet property="resultsLBL" destination="T0g-3O-cwH" id="NBd-ZN-RcG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rep-AF-g0G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
