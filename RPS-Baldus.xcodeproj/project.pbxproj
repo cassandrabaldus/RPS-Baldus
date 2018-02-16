@@ -15,6 +15,7 @@
 		3F1678C020367A63000DE70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1678BE20367A63000DE70A /* LaunchScreen.storyboard */; };
 		3F1678CB20367A63000DE70A /* RPS_BaldusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678CA20367A63000DE70A /* RPS_BaldusTests.swift */; };
 		3F1678D620367A63000DE70A /* RPS_BaldusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678D520367A63000DE70A /* RPS_BaldusUITests.swift */; };
+		3F1678E4203680D8000DE70A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678E3203680D8000DE70A /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F1678D120367A63000DE70A /* RPS-BaldusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPS-BaldusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1678D520367A63000DE70A /* RPS_BaldusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_BaldusUITests.swift; sourceTree = "<group>"; };
 		3F1678D720367A63000DE70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1678E3203680D8000DE70A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3F1678B520367A63000DE70A /* FirstViewController.swift */,
 				3F1678B720367A63000DE70A /* SecondViewController.swift */,
 				3F1678B920367A63000DE70A /* Main.storyboard */,
+				3F1678E3203680D8000DE70A /* ResultsViewController.swift */,
 				3F1678BC20367A63000DE70A /* Assets.xcassets */,
 				3F1678BE20367A63000DE70A /* LaunchScreen.storyboard */,
 				3F1678C120367A63000DE70A /* Info.plist */,
@@ -265,6 +268,7 @@
 				3F1678B820367A63000DE70A /* SecondViewController.swift in Sources */,
 				3F1678B420367A63000DE70A /* AppDelegate.swift in Sources */,
 				3F1678B620367A63000DE70A /* FirstViewController.swift in Sources */,
+				3F1678E4203680D8000DE70A /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
