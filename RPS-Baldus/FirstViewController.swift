@@ -20,6 +20,10 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var resultsLBL: UILabel!
+    @IBOutlet weak var rockBTN: UIButton!
+    @IBOutlet weak var paperBTN: UIButton!
+    @IBOutlet weak var scissorsBTN: UIButton!
+    
 }
 
