@@ -16,6 +16,7 @@
 		3F1678CB20367A63000DE70A /* RPS_BaldusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678CA20367A63000DE70A /* RPS_BaldusTests.swift */; };
 		3F1678D620367A63000DE70A /* RPS_BaldusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678D520367A63000DE70A /* RPS_BaldusUITests.swift */; };
 		3F1678E4203680D8000DE70A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1678E3203680D8000DE70A /* ResultsViewController.swift */; };
+		3F7EA163203BAF13003C98DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EA162203BAF13003C98DB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F1678D520367A63000DE70A /* RPS_BaldusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS_BaldusUITests.swift; sourceTree = "<group>"; };
 		3F1678D720367A63000DE70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1678E3203680D8000DE70A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		3F7EA162203BAF13003C98DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3F1678BC20367A63000DE70A /* Assets.xcassets */,
 				3F1678BE20367A63000DE70A /* LaunchScreen.storyboard */,
 				3F1678C120367A63000DE70A /* Info.plist */,
+				3F7EA162203BAF13003C98DB /* Model.swift */,
 			);
 			path = "RPS-Baldus";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7EA163203BAF13003C98DB /* Model.swift in Sources */,
 				3F1678B820367A63000DE70A /* SecondViewController.swift in Sources */,
 				3F1678B420367A63000DE70A /* AppDelegate.swift in Sources */,
 				3F1678B620367A63000DE70A /* FirstViewController.swift in Sources */,
